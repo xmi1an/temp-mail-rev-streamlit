@@ -6,7 +6,7 @@ import time
 import re
 
 # Constants
-API_BASE_URL = st.secrets(["API_BASE_URL"])
+API_BASE_URL = st.secrets["API_BASE_URL"]
 
 
 # Function to get domains with caching
